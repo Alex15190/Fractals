@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE5635ED214E354D00970C81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5635EC214E354D00970C81 /* AppDelegate.m */; };
+		CE5635F0214E354D00970C81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5635EF214E354D00970C81 /* ViewController.m */; };
+		CE5635F2214E355200970C81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE5635F1214E355200970C81 /* Assets.xcassets */; };
+		CE5635F5214E355200970C81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE5635F3214E355200970C81 /* Main.storyboard */; };
+		CE5635F8214E355200970C81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5635F7214E355200970C81 /* main.m */; };
+		CE563603214E355200970C81 /* FractalsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE563602214E355200970C81 /* FractalsTests.m */; };
+		CE56360E214E355200970C81 /* FractalsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE56360D214E355200970C81 /* FractalsUITests.m */; };
+		CE56361D214E3A5000970C81 /* Fractals.m in Sources */ = {isa = PBXBuildFile; fileRef = CE56361C214E3A5000970C81 /* Fractals.m */; };
+		CE56363F214E558400970C81 /* FractalView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE56363E214E558400970C81 /* FractalView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE5635FF214E355200970C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5635E0214E354D00970C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE5635E7214E354D00970C81;
+			remoteInfo = Fractals;
+		};
+		CE56360A214E355200970C81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE5635E0214E354D00970C81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE5635E7214E354D00970C81;
+			remoteInfo = Fractals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE5635E8214E354D00970C81 /* Fractals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fractals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE5635EB214E354D00970C81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE5635EC214E354D00970C81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE5635EE214E354D00970C81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE5635EF214E354D00970C81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE5635F1214E355200970C81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE5635F4214E355200970C81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE5635F6214E355200970C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE5635F7214E355200970C81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE5635F9214E355200970C81 /* Fractals.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fractals.entitlements; sourceTree = "<group>"; };
+		CE5635FE214E355200970C81 /* FractalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FractalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE563602214E355200970C81 /* FractalsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FractalsTests.m; sourceTree = "<group>"; };
+		CE563604214E355200970C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE563609214E355200970C81 /* FractalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FractalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE56360D214E355200970C81 /* FractalsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FractalsUITests.m; sourceTree = "<group>"; };
+		CE56360F214E355200970C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE56361B214E3A5000970C81 /* Fractals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fractals.h; sourceTree = "<group>"; };
+		CE56361C214E3A5000970C81 /* Fractals.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fractals.m; sourceTree = "<group>"; };
+		CE56363D214E558400970C81 /* FractalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractalView.h; sourceTree = "<group>"; };
+		CE56363E214E558400970C81 /* FractalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FractalView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE5635E5214E354D00970C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5635FB214E355200970C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE563606214E355200970C81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE5635DF214E354D00970C81 = {
+			isa = PBXGroup;
+			children = (
+				CE5635EA214E354D00970C81 /* Fractals */,
+				CE563601214E355200970C81 /* FractalsTests */,
+				CE56360C214E355200970C81 /* FractalsUITests */,
+				CE5635E9214E354D00970C81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE5635E9214E354D00970C81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE5635E8214E354D00970C81 /* Fractals.app */,
+				CE5635FE214E355200970C81 /* FractalsTests.xctest */,
+				CE563609214E355200970C81 /* FractalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE5635EA214E354D00970C81 /* Fractals */ = {
+			isa = PBXGroup;
+			children = (
+				CE5635EB214E354D00970C81 /* AppDelegate.h */,
+				CE5635EC214E354D00970C81 /* AppDelegate.m */,
+				CE5635EE214E354D00970C81 /* ViewController.h */,
+				CE5635EF214E354D00970C81 /* ViewController.m */,
+				CE56363D214E558400970C81 /* FractalView.h */,
+				CE56363E214E558400970C81 /* FractalView.m */,
+				CE5635F1214E355200970C81 /* Assets.xcassets */,
+				CE5635F3214E355200970C81 /* Main.storyboard */,
+				CE56361B214E3A5000970C81 /* Fractals.h */,
+				CE56361C214E3A5000970C81 /* Fractals.m */,
+				CE5635F6214E355200970C81 /* Info.plist */,
+				CE5635F7214E355200970C81 /* main.m */,
+				CE5635F9214E355200970C81 /* Fractals.entitlements */,
+			);
+			path = Fractals;
+			sourceTree = "<group>";
+		};
+		CE563601214E355200970C81 /* FractalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE563602214E355200970C81 /* FractalsTests.m */,
+				CE563604214E355200970C81 /* Info.plist */,
+			);
+			path = FractalsTests;
+			sourceTree = "<group>";
+		};
+		CE56360C214E355200970C81 /* FractalsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE56360D214E355200970C81 /* FractalsUITests.m */,
+				CE56360F214E355200970C81 /* Info.plist */,
+			);
+			path = FractalsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE5635E7214E354D00970C81 /* Fractals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE563612214E355200970C81 /* Build configuration list for PBXNativeTarget "Fractals" */;
+			buildPhases = (
+				CE5635E4214E354D00970C81 /* Sources */,
+				CE5635E5214E354D00970C81 /* Frameworks */,
+				CE5635E6214E354D00970C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fractals;
+			productName = Fractals;
+			productReference = CE5635E8214E354D00970C81 /* Fractals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE5635FD214E355200970C81 /* FractalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE563615214E355200970C81 /* Build configuration list for PBXNativeTarget "FractalsTests" */;
+			buildPhases = (
+				CE5635FA214E355200970C81 /* Sources */,
+				CE5635FB214E355200970C81 /* Frameworks */,
+				CE5635FC214E355200970C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE563600214E355200970C81 /* PBXTargetDependency */,
+			);
+			name = FractalsTests;
+			productName = FractalsTests;
+			productReference = CE5635FE214E355200970C81 /* FractalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE563608214E355200970C81 /* FractalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE563618214E355200970C81 /* Build configuration list for PBXNativeTarget "FractalsUITests" */;
+			buildPhases = (
+				CE563605214E355200970C81 /* Sources */,
+				CE563606214E355200970C81 /* Frameworks */,
+				CE563607214E355200970C81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE56360B214E355200970C81 /* PBXTargetDependency */,
+			);
+			name = FractalsUITests;
+			productName = FractalsUITests;
+			productReference = CE563609214E355200970C81 /* FractalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE5635E0214E354D00970C81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Alex;
+				TargetAttributes = {
+					CE5635E7214E354D00970C81 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CE5635FD214E355200970C81 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CE5635E7214E354D00970C81;
+					};
+					CE563608214E355200970C81 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CE5635E7214E354D00970C81;
+					};
+				};
+			};
+			buildConfigurationList = CE5635E3214E354D00970C81 /* Build configuration list for PBXProject "Fractals" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE5635DF214E354D00970C81;
+			productRefGroup = CE5635E9214E354D00970C81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE5635E7214E354D00970C81 /* Fractals */,
+				CE5635FD214E355200970C81 /* FractalsTests */,
+				CE563608214E355200970C81 /* FractalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE5635E6214E354D00970C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5635F2214E355200970C81 /* Assets.xcassets in Resources */,
+				CE5635F5214E355200970C81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5635FC214E355200970C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE563607214E355200970C81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE5635E4214E354D00970C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5635F0214E354D00970C81 /* ViewController.m in Sources */,
+				CE56363F214E558400970C81 /* FractalView.m in Sources */,
+				CE56361D214E3A5000970C81 /* Fractals.m in Sources */,
+				CE5635F8214E355200970C81 /* main.m in Sources */,
+				CE5635ED214E354D00970C81 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE5635FA214E355200970C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE563603214E355200970C81 /* FractalsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE563605214E355200970C81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE56360E214E355200970C81 /* FractalsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE563600214E355200970C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE5635E7214E354D00970C81 /* Fractals */;
+			targetProxy = CE5635FF214E355200970C81 /* PBXContainerItemProxy */;
+		};
+		CE56360B214E355200970C81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE5635E7214E354D00970C81 /* Fractals */;
+			targetProxy = CE56360A214E355200970C81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE5635F3214E355200970C81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE5635F4214E355200970C81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE563610214E355200970C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CE563611214E355200970C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CE563613214E355200970C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Fractals/Fractals.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Fractals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ALEX.Fractals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE563614214E355200970C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Fractals/Fractals.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Fractals/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ALEX.Fractals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE563616214E355200970C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FractalsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ALEX.FractalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fractals.app/Contents/MacOS/Fractals";
+			};
+			name = Debug;
+		};
+		CE563617214E355200970C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FractalsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ALEX.FractalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fractals.app/Contents/MacOS/Fractals";
+			};
+			name = Release;
+		};
+		CE563619214E355200970C81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FractalsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ALEX.FractalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fractals;
+			};
+			name = Debug;
+		};
+		CE56361A214E355200970C81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = FractalsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ALEX.FractalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Fractals;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE5635E3214E354D00970C81 /* Build configuration list for PBXProject "Fractals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE563610214E355200970C81 /* Debug */,
+				CE563611214E355200970C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE563612214E355200970C81 /* Build configuration list for PBXNativeTarget "Fractals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE563613214E355200970C81 /* Debug */,
+				CE563614214E355200970C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE563615214E355200970C81 /* Build configuration list for PBXNativeTarget "FractalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE563616214E355200970C81 /* Debug */,
+				CE563617214E355200970C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE563618214E355200970C81 /* Build configuration list for PBXNativeTarget "FractalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE563619214E355200970C81 /* Debug */,
+				CE56361A214E355200970C81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE5635E0214E354D00970C81 /* Project object */;
+}
