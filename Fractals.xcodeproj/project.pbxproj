@@ -14,8 +14,7 @@
 		CE5635F8214E355200970C81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5635F7214E355200970C81 /* main.m */; };
 		CE563603214E355200970C81 /* FractalsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE563602214E355200970C81 /* FractalsTests.m */; };
 		CE56360E214E355200970C81 /* FractalsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE56360D214E355200970C81 /* FractalsUITests.m */; };
-		CE56361D214E3A5000970C81 /* Fractals.m in Sources */ = {isa = PBXBuildFile; fileRef = CE56361C214E3A5000970C81 /* Fractals.m */; };
-		CE56363F214E558400970C81 /* FractalView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE56363E214E558400970C81 /* FractalView.m */; };
+		CE56363F214E558400970C81 /* CantorSetView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE56363E214E558400970C81 /* CantorSetView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,10 +51,8 @@
 		CE563609214E355200970C81 /* FractalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FractalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE56360D214E355200970C81 /* FractalsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FractalsUITests.m; sourceTree = "<group>"; };
 		CE56360F214E355200970C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE56361B214E3A5000970C81 /* Fractals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fractals.h; sourceTree = "<group>"; };
-		CE56361C214E3A5000970C81 /* Fractals.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fractals.m; sourceTree = "<group>"; };
-		CE56363D214E558400970C81 /* FractalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractalView.h; sourceTree = "<group>"; };
-		CE56363E214E558400970C81 /* FractalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FractalView.m; sourceTree = "<group>"; };
+		CE56363D214E558400970C81 /* CantorSetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CantorSetView.h; sourceTree = "<group>"; };
+		CE56363E214E558400970C81 /* CantorSetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CantorSetView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,12 +107,10 @@
 				CE5635EC214E354D00970C81 /* AppDelegate.m */,
 				CE5635EE214E354D00970C81 /* ViewController.h */,
 				CE5635EF214E354D00970C81 /* ViewController.m */,
-				CE56363D214E558400970C81 /* FractalView.h */,
-				CE56363E214E558400970C81 /* FractalView.m */,
+				CE56363D214E558400970C81 /* CantorSetView.h */,
+				CE56363E214E558400970C81 /* CantorSetView.m */,
 				CE5635F1214E355200970C81 /* Assets.xcassets */,
 				CE5635F3214E355200970C81 /* Main.storyboard */,
-				CE56361B214E3A5000970C81 /* Fractals.h */,
-				CE56361C214E3A5000970C81 /* Fractals.m */,
 				CE5635F6214E355200970C81 /* Info.plist */,
 				CE5635F7214E355200970C81 /* main.m */,
 				CE5635F9214E355200970C81 /* Fractals.entitlements */,
@@ -271,8 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE5635F0214E354D00970C81 /* ViewController.m in Sources */,
-				CE56363F214E558400970C81 /* FractalView.m in Sources */,
-				CE56361D214E3A5000970C81 /* Fractals.m in Sources */,
+				CE56363F214E558400970C81 /* CantorSetView.m in Sources */,
 				CE5635F8214E355200970C81 /* main.m in Sources */,
 				CE5635ED214E354D00970C81 /* AppDelegate.m in Sources */,
 			);

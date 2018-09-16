@@ -7,12 +7,12 @@
 //
 
 #import "ViewController.h"
-#import "FractalView.h"
+#import "CantorSetView.h"
 #import <QuartzCore/QuartzCore.h>
 
 @interface ViewController()
 
-@property (weak) IBOutlet FractalView *viewForGraphic;
+@property (weak) IBOutlet CantorSetView *viewForGraphic;
 
 @end
 

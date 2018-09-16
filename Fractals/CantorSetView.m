@@ -6,9 +6,9 @@
 //  Copyright © 2018 Alex. All rights reserved.
 //
 
-#import "FractalView.h"
+#import "CantorSetView.h"
 
-@implementation FractalView
+@implementation CantorSetView
 
 - (void)viewDidMoveToWindow
 {

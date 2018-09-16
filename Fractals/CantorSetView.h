@@ -8,7 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface FractalView : NSView
+@interface CantorSetView : NSView
 
 @property (assign, nonatomic) NSInteger length;
 
