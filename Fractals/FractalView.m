@@ -70,13 +70,7 @@
         case DrawingTypeFour:
             break;
     }
-    
-    
-    
-    
-   
 
-    
     // увеличиваем на весь экран
     NSAffineTransform *t = [[NSAffineTransform alloc] init];
     [t translateXBy:self.bounds.size.width*0.05 yBy:self.bounds.size.height*0.05];

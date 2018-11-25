@@ -38,16 +38,16 @@
 {
     
     if (n == 0){
-        //drawLine(b,e)
+        
         [self.pairOfPoints addObject:[CustomPoint makeCustomPointWithX:b.x Y:b.y]];
         [self.pairOfPoints addObject:[CustomPoint makeCustomPointWithX:e.x Y:e.y]];
     }
     else
     {
-//        CustomPoint *t = [[CustomPoint alloc] init];
+        
         for (NSInteger i = 0 ; i < [self.pattern count]; i++)
         {
-            CustomPoint *b1 = self.temp; //возможна ошибка
+            CustomPoint *b1 = self.temp;
             CustomPoint *e1 = [[CustomPoint alloc] init];
             CustomPoint *patPoint = self.pattern[i];
             e1.x = b.x + (e.x - b.x)*patPoint.x - (e.y - b.y)*patPoint.y;
