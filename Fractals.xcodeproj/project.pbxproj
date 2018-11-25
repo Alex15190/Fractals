@@ -15,7 +15,8 @@
 		CE563603214E355200970C81 /* FractalsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE563602214E355200970C81 /* FractalsTests.m */; };
 		CE56360E214E355200970C81 /* FractalsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE56360D214E355200970C81 /* FractalsUITests.m */; };
 		CE56363F214E558400970C81 /* CantorSetView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE56363E214E558400970C81 /* CantorSetView.m */; };
-		CE563644214E7D8C00970C81 /* Result.png in Resources */ = {isa = PBXBuildFile; fileRef = CE563643214E7D8B00970C81 /* Result.png */; };
+		CE8786DC2183243200C5D3B1 /* FractalView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8786DB2183243200C5D3B1 /* FractalView.m */; };
+		CE8786DF218327C900C5D3B1 /* CustomPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8786DE218327C900C5D3B1 /* CustomPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +55,11 @@
 		CE56360F214E355200970C81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE56363D214E558400970C81 /* CantorSetView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CantorSetView.h; sourceTree = "<group>"; };
 		CE56363E214E558400970C81 /* CantorSetView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CantorSetView.m; sourceTree = "<group>"; };
-		CE563643214E7D8B00970C81 /* Result.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Result.png; sourceTree = "<group>"; };
+		CE8786DA2183243200C5D3B1 /* FractalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractalView.h; sourceTree = "<group>"; };
+		CE8786DB2183243200C5D3B1 /* FractalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FractalView.m; sourceTree = "<group>"; };
+		CE8786DD218327C900C5D3B1 /* CustomPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomPoint.h; sourceTree = "<group>"; };
+		CE8786DE218327C900C5D3B1 /* CustomPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomPoint.m; sourceTree = "<group>"; };
+		CEED46AB21A736F700C54C81 /* EnumForDrawingType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumForDrawingType.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,16 +111,20 @@
 			isa = PBXGroup;
 			children = (
 				CE5635EB214E354D00970C81 /* AppDelegate.h */,
+				CEED46AB21A736F700C54C81 /* EnumForDrawingType.h */,
 				CE5635EC214E354D00970C81 /* AppDelegate.m */,
 				CE5635EE214E354D00970C81 /* ViewController.h */,
 				CE5635EF214E354D00970C81 /* ViewController.m */,
 				CE56363D214E558400970C81 /* CantorSetView.h */,
 				CE56363E214E558400970C81 /* CantorSetView.m */,
+				CE8786DA2183243200C5D3B1 /* FractalView.h */,
+				CE8786DB2183243200C5D3B1 /* FractalView.m */,
+				CE8786DD218327C900C5D3B1 /* CustomPoint.h */,
+				CE8786DE218327C900C5D3B1 /* CustomPoint.m */,
 				CE5635F1214E355200970C81 /* Assets.xcassets */,
 				CE5635F3214E355200970C81 /* Main.storyboard */,
 				CE5635F6214E355200970C81 /* Info.plist */,
 				CE5635F7214E355200970C81 /* main.m */,
-				CE563643214E7D8B00970C81 /* Result.png */,
 				CE5635F9214E355200970C81 /* Fractals.entitlements */,
 			);
 			path = Fractals;
@@ -244,7 +253,6 @@
 			files = (
 				CE5635F2214E355200970C81 /* Assets.xcassets in Resources */,
 				CE5635F5214E355200970C81 /* Main.storyboard in Resources */,
-				CE563644214E7D8C00970C81 /* Result.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,10 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8786DC2183243200C5D3B1 /* FractalView.m in Sources */,
 				CE5635F0214E354D00970C81 /* ViewController.m in Sources */,
 				CE56363F214E558400970C81 /* CantorSetView.m in Sources */,
 				CE5635F8214E355200970C81 /* main.m in Sources */,
 				CE5635ED214E354D00970C81 /* AppDelegate.m in Sources */,
+				CE8786DF218327C900C5D3B1 /* CustomPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14113"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -684,10 +685,10 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Fractals" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="Fractals" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="196" y="240" width="480" height="270"/>
+                        <rect key="contentRect" x="196" y="240" width="600" height="400"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                         <connections>
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
@@ -706,27 +707,75 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="400"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="VLF-cn-5l3" customClass="CantorSetView">
-                                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                            <customView translatesAutoresizingMaskIntoConstraints="NO" id="VLF-cn-5l3" customClass="FractalView">
+                                <rect key="frame" x="0.0" y="0.0" width="400" height="400"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="VAn-Vu-BOk"/>
+                                    <constraint firstAttribute="height" constant="400" id="syW-u7-9tf"/>
+                                </constraints>
                             </customView>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="vaH-A3-unA">
+                                <rect key="frame" x="402" y="363" width="196" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="nl7-Wd-UX9"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="1" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="9Re-15-X6a">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="button1:" target="XfG-lQ-9wD" id="SKy-7c-ZY9"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="uzF-A4-lQZ">
+                                <rect key="frame" x="402" y="330" width="144" height="32"/>
+                                <buttonCell key="cell" type="push" title="2" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="ysv-lI-F8q">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="button2:" target="XfG-lQ-9wD" id="oZe-4O-Lau"/>
+                                </connections>
+                            </button>
+                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="V7a-xF-xXk">
+                                <rect key="frame" x="552" y="336" width="40" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="jZk-3B-0s0"/>
+                                </constraints>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" alignment="center" title="4" drawsBackground="YES" id="tom-Q3-Fnq">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
                         </subviews>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="VLF-cn-5l3" secondAttribute="trailing" id="6fi-OJ-6jK"/>
+                            <constraint firstItem="V7a-xF-xXk" firstAttribute="top" secondItem="vaH-A3-unA" secondAttribute="bottom" constant="12" id="2e7-Si-J44"/>
+                            <constraint firstItem="V7a-xF-xXk" firstAttribute="leading" secondItem="uzF-A4-lQZ" secondAttribute="trailing" constant="12" id="75a-B7-FtY"/>
                             <constraint firstItem="VLF-cn-5l3" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="Cq1-xx-E2S"/>
-                            <constraint firstAttribute="bottom" secondItem="VLF-cn-5l3" secondAttribute="bottom" id="HUz-Fk-lEa"/>
+                            <constraint firstAttribute="bottom" secondItem="VLF-cn-5l3" secondAttribute="bottom" id="RfF-Fb-DoW"/>
+                            <constraint firstItem="VLF-cn-5l3" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="Vcd-uV-TyA"/>
+                            <constraint firstAttribute="trailing" secondItem="V7a-xF-xXk" secondAttribute="trailing" constant="8" id="WgM-ol-I1m"/>
+                            <constraint firstItem="vaH-A3-unA" firstAttribute="leading" secondItem="VLF-cn-5l3" secondAttribute="trailing" constant="8" id="Ztv-Hg-bwN"/>
+                            <constraint firstAttribute="trailing" secondItem="vaH-A3-unA" secondAttribute="trailing" constant="8" id="j5N-Ro-yiZ"/>
+                            <constraint firstItem="uzF-A4-lQZ" firstAttribute="top" secondItem="vaH-A3-unA" secondAttribute="bottom" constant="12" id="lWr-fM-Zsf"/>
+                            <constraint firstItem="uzF-A4-lQZ" firstAttribute="leading" secondItem="vaH-A3-unA" secondAttribute="leading" id="pmY-um-J78"/>
+                            <constraint firstItem="vaH-A3-unA" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="8" id="qhp-Eb-0U5"/>
                             <constraint firstItem="VLF-cn-5l3" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="uJj-Hy-TUV"/>
+                            <constraint firstItem="VLF-cn-5l3" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="zzh-xJ-0TK"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="TextFieldForButton2" destination="V7a-xF-xXk" id="fn3-O0-2Cr"/>
                         <outlet property="viewForGraphic" destination="VLF-cn-5l3" id="zy0-c0-QgU"/>
                     </connections>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="655"/>
+            <point key="canvasLocation" x="110" y="852"/>
         </scene>
     </scenes>
 </document>
